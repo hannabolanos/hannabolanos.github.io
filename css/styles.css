@@ -747,10 +747,10 @@ span.text-content2 {
 
 /*Media Queries*/
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1240px) {
 
 .body-content {
-    width: 54%;
+    width: 58%;
     padding-bottom: 361px;
 }
 
@@ -979,7 +979,7 @@ hr{
   @media screen and (max-width:589px) {
 
 .body-content {
-    width: 84%;
+    width: 88%;
   }
 
   @media screen and (max-width:573px) {
