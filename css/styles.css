@@ -1,0 +1,1036 @@
+body {background-color: #f2f2f2}
+
+/* Navigation bar*/
+
+.navicon {
+	height: 47px;
+	margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 48px;
+  margin-left: 48px;
+}
+
+#navbar {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+}
+
+#navbar li {
+	list-style-type: none;
+	display: inline-block;
+}
+#navbar li a{
+	display: block;
+	text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #353535;
+  font-family: 'Abel', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar p:hover {
+  color: #4bc1bc;
+  margin: 0;
+}
+
+#navbar p{
+  margin: 0;
+  text-align: center;
+}
+
+hr { 
+    width: 50%;
+    margin-bottom: 0px;
+    border-bottom: #4bc1bc;
+    border-top: 1px dotted #4bc1bc;
+    color: #4bc1bc;
+}
+
+
+/* Hanna Bolaños logo*/
+
+.homelogo {
+  display: block;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 10px;
+  font-family: "Montserrat";
+  color: #353535;
+  font-size: 50px;
+  line-height: 1.2em;
+  letter-spacing: .04em;
+  margin-top: 130px;
+  margin-bottom: 0px;
+
+}
+.homelogosub {
+  display: block;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 97px;
+  color: #4bc1bc;
+  font-size: 25px;
+  font-family:'Abel', sans-serif;
+  margin-top: 0px;
+}
+
+/* instagram/twitter/linkedin icons*/
+
+.social-icon{
+  font-size: 28px;
+  text-align: center;
+  margin-top: 100px;
+  color: #353535;
+  margin-left: 5px; 
+  margin-right: 5px;
+}
+
+
+#linkbar li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+#linkbar {
+  text-align: center;
+  padding-left: 0px;
+}
+
+/* Copyright logo*/
+
+.copyright {
+  display: block;
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  color: #48484a;
+  font-size: 14px;
+  font-family:'Abel', sans-serif;
+  margin-top: 0px;
+}
+
+/* about page*/
+
+#about-line{
+    width: 51.5%;
+    margin-left: 24%;
+    margin-bottom: 47px;
+    border-bottom: #4bc1bc;
+    border-top: 1px dotted #4bc1bc;
+    color: #4bc1bc;
+}
+
+.body-content {
+    width: 51%;
+    margin: 0 auto 0 auto;
+    padding-top: 40px;
+    padding-bottom: 340px;
+}
+
+
+#headshot {
+    background: url('../img/hanna.jpg') no-repeat;
+    background-size: 550px;
+    background-position: -200px -72px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+
+
+}
+
+
+#bio-title{
+    font-family: "Montserrat";
+    font-size: 38px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.about-description-line{ 
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  height: 2px;
+  background-color: #4bc1bc;
+  color: #4bc1bc;
+  border: 0 none;
+}
+
+
+.bio {
+    font-family: "Abel";
+    font-size: 17px;
+    width: 50%;
+    float: right;
+    margin: 0;
+}
+
+#bio-link{
+  color: #4bc1bc;
+}
+
+
+.circular {
+    background: url('../img/hanna.jpg') no-repeat;
+    background-size: 442px;
+    background-position: -167px -60px;
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+/* Work page navigation bar (design, writing, multimedia)*/
+
+#worknavbar {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+}
+
+#worknavbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#worknavbar li {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 10px;
+  color: #353535;
+  font-family: 'Abel', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#one:hover {
+  color: #4bc1bc;
+}
+
+#two:hover {
+  color: #4bc1bc;
+}
+
+#three:hover {
+  color: #4bc1bc;
+}
+
+
+/* back to all work and prev/next button*/
+
+a {
+    text-decoration: none;
+    color: #353535;
+}
+
+#backtowriting {
+  margin-bottom: 20px:;
+}
+
+#backtowriting:hover a{
+  color:#4bc1bc;
+}
+
+#backtodesign {
+margin-bottom: -22px;
+}
+
+#backtodesign a{
+  color: #353535;
+}
+
+#backtodesign:hover a{
+  color:#4bc1bc;
+}
+
+#prev {
+  color: #353535;
+}
+
+#prev:hover {
+  color: #4bc1bc;
+}
+
+#next {
+  color: #353535;
+}
+
+#next:hover {
+  color: #4bc1bc;
+}
+
+
+
+/* Work page portfolio grid*/
+
+
+
+/*.portfolio-section {
+  max-width: 78%;
+  margin-left: 164px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+.portfolio-section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.portfolio-item {
+  float: left;
+  width: 30%;
+  margin-right: 0px;
+  margin-left: 26px;
+  margin-top: 26px;
+}
+
+.portfolio-item:last-of-type {
+  margin-right: 0;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+}
+
+.portfolio-item:hover img{
+  opacity: 0.6;
+}
+
+.portfolio-item2:hover img{
+  opacity: .4;
+}*/
+
+
+/* Actual Work page portfolio grid page */
+
+
+
+ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 98%;
+    margin-left: 18px;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 332px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 332px;
+}
+
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 332px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 332px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 332px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 332px;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 332px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 332px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content {
+  font-family: "Abel";
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+/* individual project page*/
+
+
+#projects-container {
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+#projects-container .project {
+  margin-right: 300px;
+  margin-top: 10px;
+}
+
+/* project images */
+#projects-container img {
+  float: right;
+  max-width: 80%;
+  margin-bottom: 1em;
+}
+
+.project-info {
+  margin-right: -300px;
+  width: 275px;
+  float: right;
+}
+
+.project-title {
+    font-family: "Montserrat";
+    font-size: 1.4em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+    color: #353535;
+}
+
+.project-description{
+    font-family: "Abel";
+    font-size: 15px;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 0 1em;
+    color: #353535;
+
+}
+
+.description-line{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 2px;
+  background-color: #4bc1bc;
+  color: #4bc1bc;
+  border: 0 none;
+}
+
+/* line between portfolio item and rest of portfolio at bottom*/
+
+.separation-line{
+  width: 74%;
+  margin-top: 36px;
+  margin-bottom: 20px;
+  height: 2px;
+  background-color: #4bc1bc;
+  color: #4bc1bc;
+  border: 0 none;
+}
+
+/* Smaller sized portfolio section at bottom of individual portfolio items*/
+
+.portfolio-section2 {
+  max-width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+.portfolio-item2:hover {
+  opacity: 0.5;
+
+}
+
+.portfolio-item2 {
+  float: left;
+  width: 29%;
+  margin-right: 0px;
+  margin-left: 26px;
+  margin-top: 26px;
+}
+
+
+.portfolio-section2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.portfolio-item2:last-of-type {
+  margin-right: 0;
+}
+
+.portfolio-item2 img {
+  max-width: 100%;
+}
+
+/* Random stuff*/
+
+#nbnlink{
+  color: #4bc1bc;
+}
+
+
+/* writing page*/
+
+
+ul.img-list2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+ul.img-list2 li {
+  display: inline-block;
+  height: 250px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 250px;
+}
+
+
+span.text-content2 {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+span.text-content2 span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+span.text-content2 {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+}
+
+ul.img-list2 li:hover span.text-content2 {
+  opacity: 1;
+}
+
+
+
+span.text-content2 {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+span.text-content2 {
+  font-family: "Abel";
+  text-transform: uppercase;
+}
+
+
+
+/* Hare Krishna page*/
+
+
+#writing-container {
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#hi {
+  width: 87%;
+  float: right;
+}
+
+
+#writing-container .project {
+  margin-right: 300px;
+  margin-top: 10px;
+}
+
+/* project images */
+#writing-container img {
+  float: right;
+  max-width: 80%;
+  margin-bottom: 1em;
+}
+
+.hare-krishna {
+  margin-left: 300px;
+}
+
+.body-container {
+    width: 45%;
+    margin: .75em auto .75em auto;
+    font-family: "Georgia", serif;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    color: #353535;
+}
+
+.text {
+  float: left;
+}
+
+
+
+
+.page-break{
+  text-align: center;
+}
+
+
+
+/* Video formatting*/
+
+#video-container {
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+#video-container .video {
+  margin-right: 300px;
+  margin-top: 10px;
+}
+
+#video-container img {
+  float: right;
+  max-width: 80%;
+  margin-bottom: 1em;
+}
+
+.video-info {
+  margin-right: -300px;
+  width: 275px;
+  float: right;
+}
+
+.video-title {
+    font-family: "Montserrat";
+    font-size: 1.4em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+    color: #353535;
+}
+
+.video-description{
+    font-family: "Abel";
+    font-size: 15px;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 0 1em;
+    color: #353535;
+
+}
+
+#photocredit{
+  font-size: .8em;
+  color: #353535;
+}
+
+#photocredit2{
+  font-size: 1em;
+  color: #353535;
+}
+.description-line{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  height: 2px;
+  background-color: #4bc1bc;
+  color: #4bc1bc;
+  border: 0 none;
+}
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 1230px) {
+
+.body-content {
+    width: 52%;
+    padding-bottom: 361px;
+}
+
+}
+
+
+@media screen and (max-width: 1147px) {
+  .body-container {
+    width: 58%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+
+.body-content {
+    width: 62%;
+    padding-bottom: 361px;
+}
+
+}
+
+@media screen and (max-width: 1021px) {
+
+.body-content {
+    width: 70%;
+    padding-bottom: 361px;
+}
+
+}
+
+
+
+@media screen and (max-width: 983px) {
+
+.portfolio-item2 {
+  width:  43%;
+}
+
+}
+
+@media screen and (max-width: 888px) {
+
+.body-content {
+    width: 71%;
+    padding-bottom: 361px;
+}
+
+#hi {
+  width: 96%;
+}
+
+}
+
+@media screen and (max-width:874px) {
+
+  .video {
+    width: 100%;
+  }
+
+  .video-info {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #video-container img {
+    max-width: 100%;
+  }
+
+  #video-container{
+    max-width: 75%;
+  }
+  }
+
+@media screen and (max-width:843px) {
+  .body-content {
+    width:77%;
+  }
+}
+
+@media screen and (max-width:823px) {
+
+      .navicon {
+    height: 42px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 28px;
+    margin-left: 28px;
+  }
+
+  #bio-title {
+    font-family: "Montserrat";
+    font-size: 25px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .06em;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .bio{
+    font-family: "Abel";
+    font-size: 14px;
+    width: 98%;
+    margin: 0;
+  }
+
+  .body-content{
+    width: 77%;
+    margin-bottom: 9%;
+  }
+
+.circular{
+
+    background: url('../img/hanna.jpg') no-repeat;
+    background-size: 342px;
+    background-position: -134px -47px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-left: 35%;
+}
+
+#bio-title{
+  text-align: center;
+}
+
+#about-line{
+  margin-bottom: 0px;
+}
+}
+
+@media screen and (max-width:700px) {
+  .project {
+    width: 100%;
+  }
+
+  .project-info {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #projects-container img {
+    max-width: 100%;
+  }
+
+  .portfolio-section2 {
+    max-width: 90%;
+  }
+
+  .portfolio-item2 {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-top:0;
+  }
+
+  .portfolio-item2:nth-child(odd) {
+    margin-right: 1em;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .video-info {
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  #video-container img {
+    max-width: 100%;
+  }
+
+  .separation-line {
+  width: 93%;
+  margin-top: 8px;
+}
+
+hr{
+  width: 81%;
+}
+
+#hi {
+  float: none;
+}
+
+#writing-container img {
+     float: none; 
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.body-container {
+    width: 83%;
+}
+
+}
+
+@media screen and (max-width:631px) {
+
+.navicon {
+    height: 42px;
+    margin-right: 26px;
+    margin-left: 26px;
+
+  }
+
+  #about-line {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .circular{
+    margin-left: 135px;
+  }
+
+  @media screen and (max-width:573px) {
+
+.body-content {
+    width: 95%;
+  }
+
+@media screen and (max-width:460px) {
+  .portfolio-section2{
+      margin-right: 0px;
+      width: 83%
+  }
+  .portfolio-item2{
+    width: 80%;
+    margin-right: 0px;
+  }
+
+
+  @media screen and (max-width:460px) {
+.navicon {
+    height: 30px;
+    margin-right: 16px;
+    margin-left: 16px;
+
+  }
+
+  .circular {
+    margin-left: 113px;
+  }
+
+   @media screen and (max-width:460px) {
+.navicon {
+    height: 30px;
+    margin-right: 16px;
+    margin-left: 16px;
+
+  }
+
+  .circular {
+    margin-left: 85px;
+  }
+
+  .body-container {
+    font-size: 0.9em;
+  }
+
+  @media screen and (max-width:428px) {
+
+.homelogosub {
+    padding-bottom: 0px;
+}
+}
+
+
+
+
+
+
+
