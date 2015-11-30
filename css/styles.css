@@ -976,6 +976,12 @@ hr{
     margin-left: 135px;
   }
 
+  @media screen and (max-width:589px) {
+
+.body-content {
+    width: 84%;
+  }
+
   @media screen and (max-width:573px) {
 
 .body-content {
