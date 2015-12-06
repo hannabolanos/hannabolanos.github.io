@@ -932,13 +932,14 @@ span.text-content2 {
 
 @media screen and (max-width:823px) {
 
-      .navicon {
+    .navicon {
     height: 42px;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 28px;
-    margin-left: 28px;
   }
+
+
+
 
   #bio-title {
     font-family: "Montserrat";
@@ -986,6 +987,8 @@ span.text-content2 {
   margin-bottom: 0px;
 }
 }
+
+
 
 @media screen and (max-width:700px) {
   .project {
@@ -1064,6 +1067,10 @@ hr{
     margin-right: 26px;
     margin-left: 26px;
 
+  }
+
+  #navbar li {
+    margin: 0;
   }
 
   #about-line {
