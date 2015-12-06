@@ -2,6 +2,10 @@ body {background-color: #f2f2f2}
 
 /* Navigation bar*/
 
+.selected-item {
+  border-bottom: 1px solid #1aa8ad;
+}
+
 .navicon {
 	height: 47px;
 	margin-top: 0px;
@@ -13,7 +17,6 @@ body {background-color: #f2f2f2}
     text-align: center;
     padding-left: 0;
 }
-
 
 #navbar li {
 	list-style-type: none;
