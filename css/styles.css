@@ -51,6 +51,15 @@ hr {
     color: #4bc1bc;
 }
 
+#hrwork { 
+    width: 50%;
+    margin-bottom: 90px;
+    border-bottom: #4bc1bc;
+    border-top: 1px dotted #4bc1bc;
+    color: #4bc1bc;
+}
+
+
 
 /* Hanna Bolaños logo*/
 
@@ -201,6 +210,7 @@ hr {
     display: block;
     text-align: center;
     padding-left: 0;
+    margin: 0;
 }
 
 #worknavbar li {
@@ -208,15 +218,14 @@ hr {
   display: inline-block;
 }
 
+
 #worknavbar li {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 0px;
-  padding-left: 0px;
   padding-right: 10px;
   color: #353535;
   font-family: 'Abel', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 
@@ -237,6 +246,92 @@ hr {
 #three:hover {
   color: #4bc1bc;
 }
+
+#worknavbar1 {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#worknavbar1 p{
+  margin: 0;
+}
+
+#worknavbar1 {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+}
+
+#worknavbar1 li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+
+#worknavbar1 li {
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 10px;
+  color: #353535;
+  font-family: 'Abel', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+/* Newspaper/Magazine page navigation bar*/
+
+#news-mag-navbar {
+    display: block;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#news-mag-navbar li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+#news-mag-navbar li {
+    text-align: center;
+    padding-right: 5px;
+    color: #4bc1bc;
+    font-family: 'Abel';
+    font-size: 16px;
+}
+
+#news {
+  color: #4bc1bc;
+}
+
+#mag {
+  color: #4bc1bc;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#news:hover {
+  color: #353535;
+}
+
+#mag:hover {
+  color: #353535;
+}
+
 
 
 /* back to all work and prev/next button*/
@@ -540,8 +635,8 @@ span.text-content {
 
 ul.img-list2 {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 65px;
     text-align: center;
     width: 100%;
 }
@@ -682,7 +777,7 @@ span.text-content2 {
 
 #video-container .video {
   margin-right: 300px;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 #video-container img {
