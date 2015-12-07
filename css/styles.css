@@ -21,7 +21,7 @@ body {background-color: #f2f2f2}
 #navbar li {
 	list-style-type: none;
 	display: inline-block;
-    margin-right: 48px;
+  margin-right: 48px;
   margin-left: 48px;
 }
 #navbar li a{
@@ -192,7 +192,7 @@ hr {
 
 .bio {
     font-family:  'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 17px;
     width: 50%;
     float: right;
