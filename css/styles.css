@@ -192,7 +192,7 @@ hr {
 
 .bio {
     font-family:  'Source Sans Pro', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 17px;
     width: 50%;
     float: right;
@@ -967,8 +967,9 @@ span.text-content2 {
   }
 
   .bio{
-    font-family: "Abel";
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 14px;
+    font-weight: 300;
     width: 98%;
     margin: 0;
   }
