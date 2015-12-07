@@ -1151,6 +1151,13 @@ hr{
 .homelogosub {
     padding-bottom: 0px;
 }
+
+.bio {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+  font-weight: 300px;
+
+}
 }
 
 
