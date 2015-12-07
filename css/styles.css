@@ -1169,10 +1169,35 @@ hr{
 }
 }
 
+@media screen and (max-width:414px) {
+
+  .homelogo {
+    padding-top: 49px;
+}
+.body-content {
+    width: 90%;
+    padding-top: 20px;
+}
+
+#linkbar {
+     margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul.img-list {
+    margin-left: 12px;
+}
+}
+
+
 @media screen and (max-width:375px) {
 
+  .homelogo {
+    padding-top: 0px;
+  }
+
   .circular {
-    margin-left: 73px;
+    margin-left: 63px;
 }
 
 #hrwork {
@@ -1247,6 +1272,16 @@ span.text-content {
 #hrwork {
     margin-bottom: 42px;
 
+}
+
+.homelogo {
+  margin-top: 118px;
+  font-size: 48px;
+}
+
+.homelogosub {
+  font-size: 17px;
+}
 }
 
 
