@@ -1160,6 +1160,42 @@ hr{
 }
 }
 
+@media screen and (max-width:375px) {
+
+  .circular {
+    margin-left: 73px;
+}
+}
+
+@media screen and (max-width:320px) {
+
+.circular {
+    margin-left: 45px;
+}
+
+ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 98%;
+    margin-left: 13px;
+}
+
+ul.img-list li {
+    display: inline-block;
+    height: 200px;
+    margin: 0 1em 1em 0;
+    position: relative;
+    width: 200px;
+}
+
+span.text-content {
+    height: 200px;
+    width: 200px;
+}
+}
+
 
 
 
