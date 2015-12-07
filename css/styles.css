@@ -1182,7 +1182,7 @@ ul.img-list {
     margin-left: 13px;
 }
 
-ul.img-list li {
+ul.img-list li img{
     display: inline-block;
     height: 200px;
     margin: 0 1em 1em 0;
