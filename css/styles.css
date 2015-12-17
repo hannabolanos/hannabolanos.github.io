@@ -899,6 +899,11 @@ span.text-content2 {
     padding-bottom: 361px;
 }
 
+hr {
+  width: 75%;
+  margin: 0 auto;
+}
+
 }
 
 
@@ -1066,6 +1071,11 @@ hr{
   width: 81%;
 }
 
+#about-line{ 
+  width: 81%;
+  margin: 0 auto;
+}
+
 #hi {
   float: none;
 }
@@ -1096,12 +1106,18 @@ hr{
   }
 
   #about-line {
-    width: 100%;
-    margin: 0px;
+    width: 81%;
+    margin: 0 auto;
   }
 
   .circular{
     margin-left: 135px;
+  }
+
+  #hrwork {
+    width: 81%;
+    margin: 0 auto;
+    margin-bottom: 57px;
   }
 
   @media screen and (max-width:589px) {
