@@ -1641,6 +1641,14 @@ span.text-content2 {
     color: white;
 }
 
+.header-container {
+  width: 102%;
+}
+
+.header-container-about {
+  width: 102%;
+}
+
 .header-container-work {
     margin-bottom: 53px;
     width: 102%;
