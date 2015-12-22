@@ -1643,8 +1643,11 @@ span.text-content2 {
 
 .header-container-work {
     margin-bottom: 53px;
-    width: 102%;
+    width: 101%;
 }
+
+.header-container-design {
+  width: 101%;
 }
 
 ul.img-list {
