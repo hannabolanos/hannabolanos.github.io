@@ -1750,6 +1750,19 @@ ul.img-list2 {
 }
 }
 
+
+@media screen and (max-width: 350px) {
+
+.dropdown button {
+    background: #FF6A00;
+    color: #FFFFFF;
+    border: none;
+    margin: 0;
+    padding: 0.4em 2.9em;
+    font-size: 1em;
+}
+}
+
 @media screen and (max-width: 320px) {
   .hannabolanos {
     font-size: 2.2em;
