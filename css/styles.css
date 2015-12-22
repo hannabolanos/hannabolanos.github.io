@@ -21,6 +21,30 @@ a {
   margin-bottom: 250px;
 }
 
+.header-container-about {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  height: 175px; 
+  background-color: #f7f7f7;
+  margin-bottom: 250px;
+}
+
+.header-container-design {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  height: 175px; 
+  background-color: #f7f7f7;
+  margin-bottom: 250px;
+}
+
+.header-container-work {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  height: 175px; 
+  background-color: #f7f7f7;
+  margin-bottom: 250px;
+}
+
 .header-container a{
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
