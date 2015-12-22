@@ -1295,14 +1295,13 @@ body {
 
 @media screen and (max-width: 768px) {
 
-  .header-container {
-    margin-bottom: 270px;
-}
-
 ul.img-list {
     margin-left: 21px;
-}
+}  
 
+.header-container {
+    margin-bottom: 270px;
+}
 
 .header-container-about {
     margin-bottom: 150px;
@@ -1312,32 +1311,17 @@ ul.img-list {
   width: 100%;
 }
 
-.header-container-about .header {
-  width: 100%;
-}
-
 
 .logo {
   text-align: center;
   float: none;
 }
 
-.header-container-about .logo {
-  text-align: center;
-  float: none;
-
-}
 
 .hannabolanos {
     font-size: 2.5em;
     font-weight: bold;
     margin-top: 17px;
-}
-
-.header-container-about .hannabolanos {
-  font-size: 2.5em;
-  font-weight: bold;
-  margin-top: 17px;
 }
 
 .navbar {
@@ -1346,21 +1330,9 @@ ul.img-list {
     float: none;
 }
 
-.header-container-about .navbar {
-  margin-top: 20px;
-  text-align: center;
-  float: none;
-}
 
 .navbar li {
     list-style-type: none;
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
-.header-container-about .navbar li {
-   list-style-type: none;
     display: inline-block;
     margin-left: 15px;
     margin-right: 15px;
