@@ -816,9 +816,9 @@ span.text-content {
 }
 
 #projects-container {
-  max-width: 68%;
-  margin: 0 auto;
-  overflow: hidden;
+    max-width: 74%;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 
@@ -831,7 +831,7 @@ span.text-content {
 
 #projects-container img {
     float: left;
-    max-width: 66%;
+    max-width: 65%;
     margin-bottom: 1em;
 }
 
@@ -1219,19 +1219,21 @@ body {
 }
 }
 
+  @media screen and (max-width: 1024px) {
+
+.project-info {
+    position: fixed;
+    top: 45.5%;
+    right: 7%;
+}
+}
+
 @media screen and (max-width: 975px) {
 
   #projects-container {
     max-width: 83%;
     margin: 0 auto;
     overflow: hidden;
-}
-}
-
-#projects-container img {
-    float: left;
-    max-width: 60%;
-    margin-bottom: 1em;
 }
 }
 
@@ -1270,19 +1272,23 @@ body {
 }
 }
 
+@media screen and (max-width: 820px) {
+
+.project-info {
+    right: 4%;
+}
+
+#projects-container img {
+    max-width: 60%;
+}
+}
+
 @media screen and (max-width: 806px) {
 
   #projects-container {
     max-width: 87%;
     margin: 0 auto;
     overflow: hidden;
-}
-}
-
-#projects-container img {
-    float: left;
-    max-width: 53%;
-    margin-bottom: 1em;
 }
 }
 
@@ -1302,7 +1308,7 @@ ul.img-list {
 }  
 
 .header-container {
-    margin-bottom: 270px;
+    margin-bottom: 356px;
 }
 
 .header-container-about {
@@ -1551,27 +1557,28 @@ ul.img-list {
     margin-bottom: 46px;
 }
 
+ul.img-list li {
+    display: inline-block;
+    height: 300px;
+    margin: 0 0em 1em 0;
+    position: relative;
+    width: 300px;
+}
+
 ul.img-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     width: 100%;
-    margin-left: 6px;
-}
-
-ul.img-list li {
-    display: inline-block;
-    height: 300px;
-    margin: 0 1em 1em 0;
-    position: relative;
-    width: 300px;
+     margin-left: 0; 
+    padding-bottom: 55px;
 }
 
 ul.img-list li img {
     display: inline-block;
     height: 300px;
-    margin: 0 1em 1em 0;
+    margin: 0 0em 1em 0;
     position: relative;
     width: 300px;
 }
@@ -1613,7 +1620,7 @@ ul.img-list2 li img {
 ul.img-list2 li {
     display: inline-block;
     height: 300px;
-    margin: 0 1em 1.5em 0;
+    margin: 0 0em 1.5em 0;
     position: relative;
     width: 300px;
 }
@@ -1784,14 +1791,14 @@ ul.img-list2 li {
 ul.img-list li {
     display: inline-block;
     height: 250px;
-    margin: 0 1em 1em 0;
+    margin: 0 0em 1em 0;
     position: relative;
     width: 250px;
 }
 ul.img-list li img {
     display: inline-block;
     height: 250px;
-    margin: 0 1em 1em 0;
+    margin: 0 0em 1em 0;
     position: relative;
     width: 250px;
 }
@@ -1803,14 +1810,14 @@ span.text-content {
 ul.img-list2 li {
     display: inline-block;
     height: 250px;
-    margin: 0 1em 1em 0;
+    margin: 0 0em 1em 0;
     position: relative;
     width: 250px;
 }
 ul.img-list2 li img {
     display: inline-block;
     height: 250px;
-    margin: 0 1em 1em 0;
+    margin: 0 0em 1em 0;
     position: relative;
     width: 250px;
 }
