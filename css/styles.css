@@ -1647,7 +1647,11 @@ span.text-content2 {
 }
 
 .header-container-design {
-  width: 101%;
+  width: 102%;
+}
+
+.section-navbar {
+  width: 102%
 }
 
 ul.img-list {
