@@ -1878,6 +1878,21 @@ span.text-content2 {
 }
 
 
+@media screen and (max-width: 299px) {
+
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navicon {
+    height: 26px;
+}
+}
+
+
 
 
 
