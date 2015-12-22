@@ -1603,7 +1603,6 @@ ul.img-list2 {
     text-align: center;
     width: 100%;
     padding: 0;
-    margin-left: 8px;
 }
 
 ul.img-list2 li img {
@@ -1641,25 +1640,8 @@ span.text-content2 {
     color: white;
 }
 
-.header-container {
-  width: 102%;
-}
-
-.header-container-about {
-  width: 102%;
-}
-
 .header-container-work {
     margin-bottom: 53px;
-    width: 102%;
-}
-
-.header-container-design {
-  width: 102%;
-}
-
-.section-navbar {
-  width: 102%
 }
 
 ul.img-list {
@@ -1668,13 +1650,13 @@ ul.img-list {
     padding: 0;
     text-align: center;
     width: 100%;
-    margin-left: 6px;
+    margin-left: 0;
 }
 
 ul.img-list li {
     display: inline-block;
     height: 300px;
-    margin: 0 1em 1em 0;
+    margin: 0 0em 1em 0;
     position: relative;
     width: 300px;
 }
@@ -1692,6 +1674,24 @@ span.text-content {
     width: 300px;
 }
 
+ul.img-list2 {
+    list-style-type: none;
+    margin-top: 50px;
+    margin-bottom: 65px;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+}
+
+ul.img-list2 li {
+    display: inline-block;
+    height: 300px;
+    margin: 0 0em 1.5em 0;
+    position: relative;
+    width: 300px;
+}
+
 .section-navbar {
     margin-bottom: 52px;
 }
@@ -1705,16 +1705,6 @@ span.text-content {
 
 .dropdown-M {
     margin-right: 82px;
-}
-
-ul.img-list2 {
-    list-style-type: none;
-    margin-top: 50px;
-    margin-bottom: 65px;
-    text-align: center;
-    width: 100%;
-    padding: 0;
-    margin-left: 8px;
 }
 }
 
