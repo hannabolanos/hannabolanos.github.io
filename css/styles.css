@@ -1202,6 +1202,7 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
+}
 
 @media screen and (max-width: 1138px) {
 
@@ -1225,6 +1226,7 @@ body {
     max-width: 83%;
     margin: 0 auto;
     overflow: hidden;
+}
 }
 
 #projects-container img {
@@ -1275,6 +1277,7 @@ body {
     max-width: 87%;
     margin: 0 auto;
     overflow: hidden;
+}
 }
 
 #projects-container img {
@@ -1621,6 +1624,7 @@ span.text-content2 {
     height: 300px;
     width: 300px;
 }
+}
 
 
 @media screen and (max-width: 400px) {
@@ -1696,7 +1700,6 @@ ul.img-list2 {
     padding: 0;
     margin-left: 8px;
 }
-
 }
 
 
