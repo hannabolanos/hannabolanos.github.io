@@ -1892,6 +1892,19 @@ span.text-content2 {
 }
 }
 
+@media screen and (max-width: 240px) {
+
+  .navbar li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.navicon {
+    height: 22px;
+}
+}
+
 
 
 
