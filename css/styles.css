@@ -1530,16 +1530,16 @@ ul.img-list {
 
 @media screen and (max-width: 414px) {
 
-  .header-container {
-    margin-bottom: 216px;
+.header-container {
+  margin-bottom: 216px;
 }
 
 .header-container-about {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .body-content {
-    padding-bottom: 32px;
+  padding-bottom: 32px;
 }
   .main-body {
     width: 81%;
@@ -1571,7 +1571,7 @@ ul.img-list {
     padding: 0;
     text-align: center;
     width: 100%;
-     margin-left: 0; 
+    margin-left: 0; 
     padding-bottom: 55px;
 }
 
