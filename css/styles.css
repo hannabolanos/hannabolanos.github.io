@@ -469,6 +469,25 @@ span.text-content {
   animation-delay: 1.7s;
 }
 
+.fade-in.news-ten {
+  -webkit-animation-delay: 1.9s;
+  -moz-animation-delay: 1.9s;
+  animation-delay: 1.9s;
+}
+
+.fade-in.news-eleven {
+  -webkit-animation-delay: 2.1s;
+  -moz-animation-delay: 2.1s;
+  animation-delay: 2.1s;
+}
+
+.fade-in.news-twelve {
+  -webkit-animation-delay: 2.3s;
+  -moz-animation-delay: 2.3s;
+  animation-delay: 2.3s;
+}
+
+
 
 /*newspaper and magazine pages gray bar*/
 
