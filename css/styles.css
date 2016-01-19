@@ -1264,6 +1264,13 @@ body {
 }
 }
 
+  @media screen and (max-width: 906px) {
+
+#projects-container img {
+    max-width: 57%;
+}
+}
+
 
 @media screen and (max-width: 843px) {
   
