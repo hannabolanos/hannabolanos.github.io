@@ -1220,23 +1220,22 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
-}
+}  
 
-@media screen and (max-width: 1138px) {
-
-  .body-content {
-    width: 76%;
-  }
-}
-
-  @media screen and (max-width: 1166px) {
+@media screen and (max-width: 1166px) {
   
   .project-info {
     position: fixed;
     top: 45.5%;
     right: 11%;
 }
+ .body-content {
+    width: 76%;
+  }
 }
+
+
+
 
   @media screen and (max-width: 1024px) {
 
