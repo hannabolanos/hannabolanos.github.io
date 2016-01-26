@@ -830,7 +830,9 @@ span.text-content {
 .project-info1 {
   width: 263px;
   float: right;
-  
+  position: fixed;
+  top: 45.5%;
+  right: 16%;
 }
 
 #projects-container {
@@ -1228,6 +1230,11 @@ body {
     top: 45.5%;
     right: 11%;
 }
+  .project-info1 {
+    position: fixed;
+    top: 45.5%;
+    right: 11%;
+}
  .body-content {
     width: 76%;
   }
@@ -1239,6 +1246,11 @@ body {
   @media screen and (max-width: 1024px) {
 
 .project-info {
+    position: fixed;
+    top: 45.5%;
+    right: 7%;
+}
+.project-info1 {
     position: fixed;
     top: 45.5%;
     right: 7%;
@@ -1257,6 +1269,11 @@ body {
   @media screen and (max-width: 957px) {
 
     .project-info {
+    position: fixed;
+    top: 45.5%;
+    right: 5%;
+}
+    .project-info1 {
     position: fixed;
     top: 45.5%;
     right: 5%;
@@ -1302,6 +1319,10 @@ body {
     right: 4%;
 }
 
+.project-info1 {
+    right: 4%;
+}
+
 #projects-container img {
     max-width: 60%;
 }
@@ -1319,6 +1340,11 @@ body {
 
 @media screen and (max-width: 791px) {
   .project-info {
+    position: fixed;
+    top: 45.5%;
+    right: 2%;
+}
+  .project-info1 {
     position: fixed;
     top: 45.5%;
     right: 2%;
@@ -1452,6 +1478,17 @@ ul.img-list {
 }
 
 .project-info {
+    width: 100%;
+    float: none;
+}
+
+.project-info1 {
+    position: static;
+    top: 0%;
+    right: 0%;
+}
+
+.project-info1 {
     width: 100%;
     float: none;
 }
