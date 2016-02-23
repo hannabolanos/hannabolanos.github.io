@@ -277,8 +277,8 @@ body.about{
 
 .circular {
     background: url('../img/hanna.jpg') no-repeat;
-    background-size: 505px;
-    background-position: -200px -63px;
+    background-size: 305px;
+    background-position: 0px -73px;
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -286,8 +286,6 @@ body.about{
     float: left;
     margin-top: 56px;
     border: 1px;
-}
-
 
 /*work, newspaper and magazine pages*/
 
