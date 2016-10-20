@@ -902,7 +902,7 @@ a {
 }
 
 #backtowriting:hover a{
-  color:#ffffff;
+  color:#9de4e1;
 }
 
 #backtodesign {
@@ -914,7 +914,7 @@ margin-bottom: -22px;
 }
 
 #backtodesign:hover a{
-  color: #ffffff;
+  color: #9de4e1;
 
 }
 
@@ -923,7 +923,7 @@ margin-bottom: -22px;
 }
 
 #prev:hover {
-  color: #ffffff;
+  color: #9de4e1;
 }
 
 #next {
@@ -931,7 +931,7 @@ margin-bottom: -22px;
 }
 
 #next:hover {
-  color: #ffffff;
+  color: #9de4e1;
 }
 .project-page {
   background-color: #f2f2f2; 
