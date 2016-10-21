@@ -290,6 +290,7 @@ body.about{
 
 /*work, newspaper and magazine pages*/
 
+
 .header-container-work {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
@@ -485,6 +486,42 @@ span.text-content {
   animation-delay: 2.3s;
 }
 
+.fade-in.news-thirteen {
+  -webkit-animation-delay: 2.5s;
+  -moz-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+
+.fade-in.news-fourteen {
+  -webkit-animation-delay: 2.7s;
+  -moz-animation-delay: 2.7s;
+  animation-delay: 2.7s;
+}
+
+.fade-in.news-fifteen {
+  -webkit-animation-delay: 2.9s;
+  -moz-animation-delay: 2.9s;
+  animation-delay: 2.9s;
+}
+
+.fade-in.news-sixteen {
+  -webkit-animation-delay: 3.1s;
+  -moz-animation-delay: 3.1s;
+  animation-delay: 3.1s;
+}
+
+.fade-in.news-seventeen {
+  -webkit-animation-delay: 3.3s;
+  -moz-animation-delay: 3.3s;
+  animation-delay: 3.3s;
+}
+
+.fade-in.news-eighteen {
+  -webkit-animation-delay: 3.5s;
+  -moz-animation-delay: 3.5s;
+  animation-delay: 3.5s;
+}
+
 
 
 /*newspaper and magazine pages gray bar*/
@@ -548,6 +585,7 @@ span.text-content {
 .dropdown {
     position: relative;
     display: inline-block;
+    float:right;
     margin-top: 27px;
 }
 
@@ -636,6 +674,7 @@ span.text-content {
 .dropdown-WM {
     position: relative;
     display: inline-block;
+    float: right;
     margin-top: 27px;
 }
 
@@ -724,6 +763,7 @@ span.text-content {
 .dropdown-M {
     position: relative;
     display: inline-block;
+    float: right;
     margin-top: 27px;
 }
 
