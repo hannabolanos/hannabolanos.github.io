@@ -369,7 +369,7 @@ span.text-content {
 }
 
 ul.img-list li:hover span.text-content {
-  opacity: 1;
+  opacity: 10;
 }
 
 
