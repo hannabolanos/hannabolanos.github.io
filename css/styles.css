@@ -1199,7 +1199,7 @@ body {
 
 .imgWrap:hover .imgDescription {
   visibility: visible;
-  opacity: 1;
+  opacity: 5;
 }
 
 
